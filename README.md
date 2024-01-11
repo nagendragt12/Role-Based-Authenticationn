@@ -10,7 +10,7 @@ role-based-authorization-server
 
 Setup steps 
 
-1) clone the repository https://github.com/seetharamugn/role-based-authorization-server
+1) clone the repository https://github.com/nagendragt12/role-based-authorization-server
 
 2) create a schema in ur local called database called user 
 
