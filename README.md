@@ -34,9 +34,9 @@ Setup steps
      curl --location --request POST 'http://localhost:8081/users/add' \
      --header 'Content-Type: application/json' \
      --data-raw '{
-     "username":"seetharama",
-     "password":"redhat",
-    "email":"seetha@gmail.com",
+     "username":"chami",
+     "password":"chami@06",
+    "email":"nagendragt499@gmail.com",
     "role":["editor"]
     }'
 
@@ -45,8 +45,8 @@ Setup steps
     curl --location --request POST 'http://localhost:8081/oauth/token' \
     --header 'Authorization: Basic bW9iaWxlOnNlY3JldA==' \
     --form 'grant_type="password"' \
-    --form 'username="seetharama"' \
-    --form 'password="redhat"'
+    --form 'username="chami"' \
+    --form 'password="chami@06"'
 
 **Private API**       ------ROLE_ADMIN-------------
 
